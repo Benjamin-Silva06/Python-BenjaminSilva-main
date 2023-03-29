@@ -8,11 +8,14 @@ class Usuario:
     def hacer_depósito(self,amount):   # toma un argumento que es el monto del depósito
         self.balance_cuenta += amount   # la cuenta del usuario específico aumenta en la 
 
+
     def hacer_deposito(self,amount):
         self.balance_cuenta += amount
+        return self
 
     def hacer_giro(self,amount):
         self.balance_cuenta -= amount
+
 
 guido = Usuario("guido","email@email",0)
 benja = Usuario("benja","@email",20)
