@@ -21,8 +21,7 @@ class CuentaBancaria:
             return self
         
         def generar_interés(self):
-            # tu código aquí
-            self.balance += self.balance * self.tasa_intereses
+            # tu código aquí            self.balance += self.balance * self.tasa_intereses
             return self
         
 cuenta1 = CuentaBancaria(0.5,10000)
